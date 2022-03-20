@@ -36,7 +36,6 @@ body {
     line-height: 1.5;
     background-image: url(/images/pattern-background-mobile.svg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -56,7 +55,8 @@ body {
 .heading--container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .heading--container h1 {
@@ -74,10 +74,6 @@ body {
     font-size: 1.5rem;
 }
 
-.description--container p {
-    margin: 0;
-}
-
 .plan--container {
     display: flex;
     align-items: center;
@@ -92,6 +88,7 @@ body {
 
 .plan--container img {
     border-radius: 50%;
+    margin-right: 1.5rem;
 }
 
 .plan--flex {
@@ -107,6 +104,30 @@ body {
 
 .annual--cost {
     color: var(--unsaturated-blue);
+}
+
+.plan--container a {
+    margin-left: 1.3rem;
+}
+
+.btn--payment {
+    text-decoration: none;
+    border: none;
+    background-color: var(--bright-blue);
+    color: var(--v-pale-blue);
+    font: inherit;
+    border-radius: 10px;
+    padding: 0.5em 4em 0.5em 4em;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.btn--cancel {
+    text-decoration: none;
+    border: none;
+    background-color: var(--v-pale-blue);
+    color: var(--unsaturated-blue);
+    font: inherit;
 }
 
 .attribution {
