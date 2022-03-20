@@ -16,7 +16,7 @@ var colours:
 var(--pale-blue);
 var(--bright-blue);
 var(--v-pale-blue);
-var(--unsaturated-blue);
+var(--unsaturated-blue)
 var(--dark-blue)
 */
 
@@ -33,7 +33,80 @@ body {
     height: 100vh;
     overflow: hidden;
     font-size: 1.6rem;
-    background-color: var(--unsaturated-blue);
+    line-height: 1.5;
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 85%;
+    background-color: var(--v-pale-blue);
+    border-radius: 25px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.heading--container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.heading--container h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin: 0;
+}
+
+.description--container {
+    max-width: 80%;
+    text-align: center;
+    color: var(--unsaturated-blue);
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.description--container p {
+    margin: 0;
+}
+
+.plan--container {
+    display: flex;
+    align-items: center;
+    background-color: var(--v-pale-blue);
+    max-width: 95%;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+    border-radius: 15px;
+}
+
+.plan--container img {
+    border-radius: 50%;
+}
+
+.plan--flex {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+}
+
+.annual--plan {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.annual--cost {
+    color: var(--unsaturated-blue);
 }
 
 .attribution {
