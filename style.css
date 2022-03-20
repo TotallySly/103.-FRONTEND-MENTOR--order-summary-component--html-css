@@ -32,6 +32,8 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    font-size: 1.6rem;
+    background-color: var(--unsaturated-blue);
 }
 
 .attribution {
