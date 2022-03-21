@@ -84,6 +84,7 @@ body {
     padding-right: 2rem;
     padding-bottom: 1.5rem;
     border-radius: 15px;
+    margin-bottom: 3rem;
 }
 
 .plan--container img {
@@ -115,10 +116,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 95%;
 }
 
 .payment--container button {
-    margin-top: 1rem;
     margin-bottom: 2rem;
     font-family: inherit;
     font-weight: 900;
@@ -131,7 +132,7 @@ body {
     padding-bottom: 1em;
     padding-left: 4em;
     padding-right: 4em;
-    box-shadow: 0 7px 80px var(--unsaturated-blue);
+    box-shadow: 0 2px 80px var(--unsaturated-blue);
 }
 
 .payment--container a {
