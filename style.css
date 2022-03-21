@@ -149,3 +149,39 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 544px) {
+    .container {
+        max-width: 50vw;
+    }
+}
+
+@media screen and (min-width: 908px) {
+    body {
+        background: url(/images/pattern-background-desktop.svg) no-repeat, hsl(225, 100%, 94%);
+    }
+
+    .container {
+        max-width: 28vw;
+    }
+
+    .plan--container a {
+        cursor: pointer;
+    }
+
+    .plan--container a:hover {
+        color: var(--unsaturated-blue);
+    }
+
+    .payment--container button {
+        cursor: pointer;
+    }
+
+    .payment--container button:hover {
+        background-color: var(--unsaturated-blue);
+    }
+
+    .payment--container a:hover {
+        color: var(--dark-blue);
+    }
+}
