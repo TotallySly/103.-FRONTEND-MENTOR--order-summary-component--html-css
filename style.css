@@ -154,6 +154,10 @@ body {
     .container {
         max-width: 50vw;
     }
+
+    .plan--container a {
+        margin-left: 0.2rem;
+    }
 }
 
 @media screen and (min-width: 908px) {
