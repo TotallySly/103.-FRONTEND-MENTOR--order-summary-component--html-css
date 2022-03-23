@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Am I Responsive?](read-me--images/read-me--responsive.png)
+![Am I Responsive?](/read-me--images/read-me--responsive.png)
 
 ### Links
 
